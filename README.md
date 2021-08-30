@@ -1,41 +1,21 @@
-## 🚀 Prints da aplicação
-
-### 🔐 Tela de login
-
-<p align="center">
- <img src="./public/src/assets/.github/loginScreen.png" alt="template"  width="600px"/>
-</p>
-
-### 📝 Tela de cadastro
-
-<p align="center">
- <img src="./public/src/assets/.github/registerScreen.png" alt="template"  width="600px"/>
-</p>
-
-### 🏷 Tela de cadastro de produto
+<!-- ## 🚀 Prints da aplicação
 
 <p align="center">
  <img src="./public/src/assets/.github/registerProduct.png" alt="template"  width="600px"/>
-</p>
-
+</p> -->
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias/libs:
+Esse projeto está sendo desenvolvido com as seguintes tecnologias/libs:
 
 - HTML
-- CSS
-- JS
-- PHP
-- Bootstrap v5.0
-- Jquery
-- Jquery Mask Money
-- SweetAlert2
-
+- SASS
+- React.js
+- TypeScript
 
 ## 💻 Projeto
 
-Projeto realizado no programa de estágio que estou participando, com foco no aprendizado e estudo de bibliotecas e frameworks. No momento estou estudando bootstrap e jquery.
+Projeto será desenvolvido durante todo o curso do Ignite sobre React.js da [Rocketseat](https://rocketseat.com.br/ignite). Ganhei ele em um sorteio de bolsas de estudo durante a [NLW-Together](https://nextlevelweek.com/pre-nlw).
 
 ## 🔖 Layout
 
