@@ -1,9 +1,11 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+const isDevelopment = process.env.NODE_ENV !== 'production';
+
 module.exports = {
-    mode: 'development',
-    devtool: 'eval-source-map',
+    mode: isDevelopment ? 'development' : 'production',
+    devtool: isDevelopment ? 'eval-source-map' : 'source-map',
     entry: path.resolve(__dirname, 'src', 'index.jsx'), // Assim eu passo o nome da pasta primeiro e depois o arquivo.
     // entry: 'src/index.jsx', Não vamos fazer assim pois muda o formato da barra dependendo do sistema operacional.
     output: {
