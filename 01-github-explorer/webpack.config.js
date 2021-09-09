@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+    mode: 'development',
     entry: path.resolve(__dirname, 'src', 'index.jsx'), // Assim eu passo o nome da pasta primeiro e depois o arquivo.
     // entry: 'src/index.jsx', Não vamos fazer assim pois muda o formato da barra dependendo do sistema operacional.
     output: {
